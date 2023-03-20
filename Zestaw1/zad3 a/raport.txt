@@ -1,0 +1,186 @@
+Wniosek:
+    Biblioteka statyczna jest najszybsza.
+    Szybkość biblioteki dynamicznej i dzielonej jest porównywalna.
+
+
+
+Result static
+
+ >>> init 1000Czas rzeczywisty: 0.000031 s
+Czas użytkownika: 0.000000 s
+Czas systemowy: 0.000000 s
+
+ >>> count main.cCzas rzeczywisty: 0.000426 s
+Czas użytkownika: 0.000000 s
+Czas systemowy: 0.000000 s
+
+ >>> count library.cCzas rzeczywisty: 0.000336 s
+Czas użytkownika: 0.000000 s
+Czas systemowy: 0.000000 s
+
+ >>> count library.hCzas rzeczywisty: 0.000324 s
+Czas użytkownika: 0.000000 s
+Czas systemowy: 0.000000 s
+
+ >>> show 0
+  88  267 2944 main.c
+Czas rzeczywisty: 0.000021 s
+Czas użytkownika: 0.000000 s
+Czas systemowy: 0.000000 s
+
+ >>> show 1
+  51  151 1409 library.c
+Czas rzeczywisty: 0.000029 s
+Czas użytkownika: 0.000000 s
+Czas systemowy: 0.000000 s
+
+ >>> show 2
+ 20  52 455 library.h
+Czas rzeczywisty: 0.000028 s
+Czas użytkownika: 0.000000 s
+Czas systemowy: 0.000000 s
+
+ >>> delete 0
+ value deletedCzas rzeczywisty: 0.000035 s
+Czas użytkownika: 0.000000 s
+Czas systemowy: 0.000000 s
+
+ >>> delete 1
+ value deletedCzas rzeczywisty: 0.000031 s
+Czas użytkownika: 0.000000 s
+Czas systemowy: 0.000000 s
+
+ >>> delete 2
+ value deletedCzas rzeczywisty: 0.000030 s
+Czas użytkownika: 0.000000 s
+Czas systemowy: 0.000000 s
+
+ >>> destroy
+ destroyed sucesfullyCzas rzeczywisty: 0.000039 s
+Czas użytkownika: 0.000000 s
+Czas systemowy: 0.000000 s
+
+ >>>
+
+
+
+ result shared
+
+
+ >>> init 1000Czas rzeczywisty: 0.000037 s
+Czas użytkownika: 0.000000 s
+Czas systemowy: 0.000000 s
+
+ >>> count main.cCzas rzeczywisty: 0.000450 s
+Czas użytkownika: 0.000000 s
+Czas systemowy: 0.000000 s
+
+ >>> count library.cCzas rzeczywisty: 0.000301 s
+Czas użytkownika: 0.000000 s
+Czas systemowy: 0.000000 s
+
+ >>> count library.hCzas rzeczywisty: 0.000329 s
+Czas użytkownika: 0.000000 s
+Czas systemowy: 0.000000 s
+
+ >>> show 0
+  88  267 2944 main.c
+Czas rzeczywisty: 0.000032 s
+Czas użytkownika: 0.000000 s
+Czas systemowy: 0.000000 s
+
+ >>> show 1
+  51  151 1409 library.c
+Czas rzeczywisty: 0.000031 s
+Czas użytkownika: 0.000000 s
+Czas systemowy: 0.000000 s
+
+ >>> show 2
+ 20  52 455 library.h
+Czas rzeczywisty: 0.000033 s
+Czas użytkownika: 0.000000 s
+Czas systemowy: 0.000000 s
+
+ >>> delete 0
+ value deletedCzas rzeczywisty: 0.000040 s
+Czas użytkownika: 0.000000 s
+Czas systemowy: 0.000000 s
+
+ >>> delete 1
+ value deletedCzas rzeczywisty: 0.000031 s
+Czas użytkownika: 0.000000 s
+Czas systemowy: 0.000000 s
+
+ >>> delete 2
+ value deletedCzas rzeczywisty: 0.000029 s
+Czas użytkownika: 0.000000 s
+Czas systemowy: 0.000000 s
+
+ >>> destroy
+ destroyed sucesfullyCzas rzeczywisty: 0.000031 s
+Czas użytkownika: 0.000000 s
+Czas systemowy: 0.000000 s
+
+ >>>
+
+
+
+ result dynamic
+
+
+
+ >>> init 1000Czas rzeczywisty: 0.000036 s
+Czas użytkownika: 0.000000 s
+Czas systemowy: 0.000000 s
+
+ >>> count main.cCzas rzeczywisty: 0.000407 s
+Czas użytkownika: 0.000000 s
+Czas systemowy: 0.000000 s
+
+ >>> count library.cCzas rzeczywisty: 0.000394 s
+Czas użytkownika: 0.000000 s
+Czas systemowy: 0.000000 s
+
+ >>> count library.hCzas rzeczywisty: 0.000410 s
+Czas użytkownika: 0.000000 s
+Czas systemowy: 0.000000 s
+
+ >>> show 0
+  88  267 2944 main.c
+Czas rzeczywisty: 0.000030 s
+Czas użytkownika: 0.000000 s
+Czas systemowy: 0.000000 s
+
+ >>> show 1
+  51  151 1409 library.c
+Czas rzeczywisty: 0.000017 s
+Czas użytkownika: 0.000000 s
+Czas systemowy: 0.000000 s
+
+ >>> show 2
+ 20  52 455 library.h
+Czas rzeczywisty: 0.000013 s
+Czas użytkownika: 0.000000 s
+Czas systemowy: 0.000000 s
+
+ >>> delete 0
+ value deletedCzas rzeczywisty: 0.000020 s
+Czas użytkownika: 0.000000 s
+Czas systemowy: 0.000000 s
+
+ >>> delete 1
+ value deletedCzas rzeczywisty: 0.000022 s
+Czas użytkownika: 0.000000 s
+Czas systemowy: 0.000000 s
+
+ >>> delete 2
+ value deletedCzas rzeczywisty: 0.000019 s
+Czas użytkownika: 0.000000 s
+Czas systemowy: 0.000000 s
+
+ >>> destroy
+ destroyed sucesfullyCzas rzeczywisty: 0.000013 s
+Czas użytkownika: 0.000000 s
+Czas systemowy: 0.000000 s
+
+ >>>
