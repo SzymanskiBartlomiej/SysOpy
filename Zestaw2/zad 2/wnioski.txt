@@ -1,0 +1,13 @@
+./revByChar text.txt result1.txt
+./revByChar result1.txt result2.txt
+diff -s text.txt result2.txt
+
+
+./revByBlock text.txt result1.txt
+./revByBlock result1.txt result2.txt
+diff -s text.txt result2.txt
+
+
+Wykonanie tych instrukcji zwraca nam komunikat:
+Files text.txt and result2.txt are identical
+co oznacza ze program poprawnie odwraca pliki.

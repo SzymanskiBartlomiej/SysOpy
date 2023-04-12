@@ -1,0 +1,2 @@
+Flaga SA_NODEFER umożliwia otrzymanie tego samego sygnału podczas obsługi poprzedniego sygnału
+Flaga SA_RESETHAND działa tak ,że handler jest resetowany po jednorazowym wykonaniu sie.

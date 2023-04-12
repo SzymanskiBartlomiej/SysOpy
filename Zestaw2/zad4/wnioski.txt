@@ -1,0 +1,3 @@
+Rozmiary plików sie zgadzają natomiast minimalnie rózni się rozmiar katalogów.
+Może to byc spowodowane tym że komenda wc bierze pod uwage ukryte pliki?
+

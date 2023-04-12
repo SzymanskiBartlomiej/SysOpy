@@ -1,0 +1,18 @@
+./main
+
+nazwa : main.c rozmiar: 513
+nazwa : Makefile rozmiar: 115
+nazwa : main.o rozmiar: 2056
+nazwa : main rozmiar: 15632
+Sumaryczny rozmiar 18324
+
+
+wc --bytes *
+15632 main
+  513 main.c
+ 2056 main.o
+  115 Makefile
+18316 total
+
+Rozmiary plików sie zgadzają natomiast minimalnie rózni się rozmiar katalogów.
+Może to byc spowodowane tym że komenda wc bierze pod uwage ukryte pliki?

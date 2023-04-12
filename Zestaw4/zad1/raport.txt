@@ -1,0 +1,3 @@
+Dla forka i execa każdy proces potomny dziedzdiczy maske, handler i ignorowanie sygnałow
+Dla forka procesy oczekujące nie są dziedziczone
+Dla execa procesy oczekujące są dziedziczone

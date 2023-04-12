@@ -1,0 +1,4 @@
+Zostało zrobione zadanie 2 i 3.
+
+Dla tych samych danych wejściowych w krótszym czasie obliczane
+są całki liczone przez program z zad 3 (obliczenia rodzielane na kilka programów)
